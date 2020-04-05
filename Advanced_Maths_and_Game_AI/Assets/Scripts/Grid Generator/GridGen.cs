@@ -106,7 +106,7 @@ public class GridGen : MonoBehaviour
         }
     }
 
-    public Texture2D CreateNoise() //-------------- creates and returns purlin noise texture -----//
+    public Texture2D CreateNoise() //-------------- creates and returns perlin noise texture -----//
     {
         Texture2D text = new Texture2D((int)GridSize.x, (int)GridSize.y);
 
@@ -149,32 +149,32 @@ public class GridGen : MonoBehaviour
 
                             if (randomNumber == 0)
                             {
-                                tempObject = Instantiate(testTube1, new Vector3(x * gridScale, 1, y * gridScale), Quaternion.identity, objectParent.transform); // spawn testTube 
+                                tempObject = Instantiate(testTube1, new Vector3(x * gridScale, 2, y * gridScale), Quaternion.identity, objectParent.transform); // spawn testTube 
                             }
                             else
                             if (randomNumber == 1)
                             {
-                                tempObject = Instantiate(testTube2, new Vector3(x * gridScale, 1, y * gridScale), Quaternion.identity, objectParent.transform); // spawn testTube 
+                                tempObject = Instantiate(testTube2, new Vector3(x * gridScale, 2, y * gridScale), Quaternion.identity, objectParent.transform); // spawn testTube 
                             }
                             else
                             if (randomNumber == 2)
                             {
-                                tempObject = Instantiate(enviroment, new Vector3(x * gridScale, 1, y * gridScale), Quaternion.identity, objectParent.transform);// spawn enviroments
+                                tempObject = Instantiate(enviroment, new Vector3(x * gridScale, 2, y * gridScale), Quaternion.identity, objectParent.transform);// spawn enviroments
                             }
                             else
                             if (randomNumber == 3)
                             {
-                                tempObject = Instantiate(rats, new Vector3(x * gridScale, 1, y * gridScale), Quaternion.Euler(-90,0,0), objectParent.transform);
+                                tempObject = Instantiate(rats, new Vector3(x * gridScale, 2, y * gridScale), Quaternion.Euler(-90,0,0), objectParent.transform);
                             }
                             else
                             if (randomNumber == 4)
                             {
-                                tempObject = Instantiate(bioAssets1, new Vector3(x * gridScale, 1, y * gridScale), Quaternion.Euler(-90, 0, 0), objectParent.transform);
+                                tempObject = Instantiate(bioAssets1, new Vector3(x * gridScale, 2, y * gridScale), Quaternion.Euler(-90, 0, 0), objectParent.transform);
                             }
                             else
                             if (randomNumber == 5)
                             {
-                                tempObject = Instantiate(bioAssets2, new Vector3(x * gridScale, 1, y * gridScale), Quaternion.identity, objectParent.transform);
+                                tempObject = Instantiate(bioAssets2, new Vector3(x * gridScale, 2, y * gridScale), Quaternion.identity, objectParent.transform);
                             }
 
 
