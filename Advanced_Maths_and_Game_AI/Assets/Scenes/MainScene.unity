@@ -162,9 +162,9 @@ MonoBehaviour:
   enviroment: {fileID: 6238577206855064151, guid: 241c44e13caf19d419f552aaa7d18de9,
     type: 3}
   rats: {fileID: 8665387261033826817, guid: e4a5ba05af781e740a76f6e4a473f642, type: 3}
-  bioAssets1: {fileID: 538468170989292569, guid: 7789e44d91ea1cc44851b82e01f1e182,
+  bioAssets1: {fileID: 8547352021331708301, guid: 7789e44d91ea1cc44851b82e01f1e182,
     type: 3}
-  bioAssets2: {fileID: 791153026512107509, guid: 54475ad9bd94b5748a2a4768dfd2c55a,
+  bioAssets2: {fileID: 8035156215488581540, guid: 54475ad9bd94b5748a2a4768dfd2c55a,
     type: 3}
   objectParent: {fileID: 310004388}
   clusterManager: {fileID: 1361942623}
@@ -582,7 +582,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.58285904
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -640,7 +640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1663724926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.8, y: 3.38, z: 13.62}
+  m_LocalPosition: {x: 14.8, y: 3.01, z: 13.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
